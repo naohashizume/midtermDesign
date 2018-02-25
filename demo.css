@@ -1,0 +1,27 @@
+#demo {
+    position: absolute;
+    width:70vw;
+    height:70vh;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    text-align: center;
+    
+}
+
+.gearChoice {
+    width:80px;
+    height:80px;
+    right:0px;
+    left:0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#change {
+    border-top: 1px solid rgba(0,0,0,0.5);
+    padding: 10px;
+}
