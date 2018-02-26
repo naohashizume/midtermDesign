@@ -131,6 +131,18 @@ bgText.addEventListener("keyup", function(ev){
             img2.src ="gears/b"+num2+".png";
             img3.src ="gears/l"+num3+".png";
             img4.src ="gears/f"+num4+".png";
+        }else if (bgText.value == "random"){
+            
+            num1=Math.floor(Math.random()*3)+1;
+            num2=Math.floor(Math.random()*3)+1;
+            num3=Math.floor(Math.random()*3)+1;
+            num4=Math.floor(Math.random()*3)+1;
+            
+            img1.src ="gears/h"+num1+".png";
+            img2.src ="gears/b"+num2+".png";
+            img3.src ="gears/l"+num3+".png";
+            img4.src ="gears/f"+num4+".png";
+            
         }
     }
 });
